@@ -2,3 +2,11 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus placerat dolor id fringilla. Proin consectetur, lectus nec pretium congue, libero ante sollicitudin diam, pulvinar efficitur diam leo at orci. Sed nulla lorem, fermentum in ante vitae, molestie pharetra ex. Donec pretium lectus velit, a rutrum magna facilisis vitae. Nullam a convallis quam. Sed euismod ipsum ut nibh sodales rhoncus. Nam viverra viverra metus at pretium. Donec rhoncus quis felis eu vehicula. In euismod in sapien a vulputate.
 
     Praesent id ligula in enim vulputate faucibus. Fusce lobortis sagittis felis a mattis. Ut et ligula congue, finibus purus eget, tempor dui. Pellentesque nunc dolor, ornare sit amet est nec, fringilla auctor lorem. Aliquam erat volutpat. Nam sit amet est purus. Suspendisse accumsan eros id lectus euismod rutrum a sit amet velit. Aliquam a consequat diam.</p>
+
+
+<div ng-show="reposFound">
+    <h2>Repos List:</h2>
+    <ul ng-repeat="repo in repos" class="list-unstyled list-inline">
+        <li class="col-md-4"><a href="{{repo.html_url}}" target="_blank"> {{repo.name}} </a></li>
+    </ul>
+</div>
