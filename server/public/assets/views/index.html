@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="myApp" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Personal Website Framework</title>
+
+        <!--STYLES-->
+        <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/styles/style.css">
+
+    </head>
+    <body>
+
+            <!--JUMBOTRON-->
+        <div class="jumbotron">
+            <h1>Hi, I'm Brandon!</h1>
+        </div>
+
+            <!--NAVIGATION-->
+        <ul class="nav nav-tabs">
+            <li role="presentation"><a href="#home">Home</a></li>
+            <li role="presentation"><a href="#aboutme">About Me</a></li>
+            <li role="presentation"><a href="#projects">Projects</a></li>
+        </ul>
+
+            <!--CONTENT-->
+        <div class="aboutMe col-md-8">
+            <main ng-view></main>
+        </div>
+
+            <!--LINKS-->
+        <div class="findMe col-md-4">
+            <h2>Find Me On</h2>
+            <ul class="social list-unstyled list-inline">
+                <li>
+                    <a href="http://www.linkedin.com/pub/brandon-negen"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="http://www.twitter.com/brandonnegen"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="http://www.github.com/brandonnegen"><i class="fa fa-github"></i></a>
+                </li>
+            </ul>
+        </div>
+
+            <!--SCRIPTS-->
+            <script type="text/javascript" src="vendors/angular/angular.min.js"></script>
+            <script type="text/javascript" src="vendors/angular-route/angular-route.min.js"></script>
+            <script type="text/javascript" src="assets/scripts/app.min.js"></script>
+            <script type="text/javascript" src="assets/scripts/controllers/controller.min.js"></script>
+
+    </body>
+</html>

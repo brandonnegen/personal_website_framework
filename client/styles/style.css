@@ -1,0 +1,30 @@
+.jumbotron{
+    height: 25em;
+    padding-top: 9em;
+    margin-bottom: 2em;
+    background-image: url("http://i.imgur.com/NjcELUs.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 3px 0px #4E0D2B;
+}
+.findMe{
+    text-align: center;
+}
+li{
+    font-size: 200%;
+    margin: 2em;
+}
+h2{
+    color: #4E0D2B;
+    text-shadow: 0px 1px 0px #FF853F;
+    text-align: center;
+}
+a{
+    color: #D52434;
+    box-shadow: 0px 1px 0px #4E0D2B;
+}
+a:hover{
+    color: #FF853F;
+    text-decoration: none;
+}
